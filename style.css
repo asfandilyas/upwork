@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  justify-content: space-around;
+  margin: 0 60px;
+  flex-wrap: wrap;
+}
+.leftContainer {
+  display: flex;
+  /* border: 1px solid purple; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.leftContainer ul {
+  display: flex;
+  color: #65735b;
+  /* #14a800 */
+  
+}
+
+.leftContainer ul li {
+  margin: 0 20px;
+  font-size: large;
+  cursor: pointer;
+  }
+
+.leftContainer li i {
+  font-size: small;
+  }
+
+.rightContainer {
+  /* border: 1px solid orange; */
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer .search {
+  margin: 0 10px;
+  /* border: 1px solid black; */
+  padding: 12px;
+  border-radius: 50%;
+  color: #14a800;
+}
+
+.searchbox{
+  width: 240px;
+  height: 2rem;
+  border-radius: 20px;
+  border-color: silver;
+  }
+.authBtn {
+  margin: 0 10px;
+}
+
+.authBtn button {
+  /* width: 100px; */
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  color: #14a800;
+  font-size: large;
+  cursor: pointer;
+}
+.signupBtn {
+  width: 100px;
+
+  background-color: #14a800 !important;
+  color: white !important;
+  border-radius: 15px;
+}
+
+.extraLinks {
+  /* width: 100%; */
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
+
+.extraLinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  color: #65735b;
+}
+
+.extraLinks li {
+  margin: 5px;
+}
+.extraLinks ul i {
+  font-size: small;
+}
+
+.extraLinks li:hover {
+  color: #14a800;
+  cursor: pointer;
+}
+
+.topBanner {
+  display: flex;
+  justify-content: space-evenly;
+  margin: top -10px;
+}
+
+.bannerContent {
+  width: 60%;
+  padding: 100px;
+}
+
+.bannerImg {
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+.content h1 {
+  font-size: 60px;
+  color: #14a800;
+}
+.content h3 {
+  color: #65735b;
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.content button {
+  width: 120px;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #14a800;
+  background-color: transparent;
+  color: #14a800;
+}
+
+.btn1 {
+  background-color: #14a800 !important;
+  color: white !important;
+}
+
+.logos {
+  margin-top: 80px;
+}
+.logos p {
+  color: #65735b;
+}
+.logos img {
+  margin: 0 8px;
+}
+
+.parentSection {
+  padding: 0 10px;
+}
+.firstSection {
+  width: 90%;
+  background-image: url("img/find-talent.06d34b1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px 100px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.para {
+  margin: 0;
+  padding: 18px;
+}
+.para p {
+  margin-top: 0;
+  color: white;
+  font-size: 25px;
+}
+.firstSection h1 {
+  font-size: 60px;
+  color: white;
+  padding-left: 18px;
+}
+
+.firstSection h3 {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0;
+  padding-left: 18px;
+}
+
+.cards {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.cards section {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #14a800;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  color: white;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.para2{
+  display: flex;
+  margin-top: 30px;
+}
+.leftbox{
+height: 550px;
+width: 64%;
+border-radius: 10px;
+background-color: rgb(182, 231, 243);
+margin-left: 110px;
+margin-top: 5.5rem;}
+
+.leftboxcontent{
+  margin: 30px 40px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.leftboxcontent h1{
+  font-size: 60px;
+  color: black;
+  line-height: 3rem;
+}
+
+.leftboxcontent p{
+  font-size: 20px;
+  color: black;
+  word-spacing: 5px;
+}
+
+.leftboxcontent h3{
+  font-size: 30px;
+  color: black solid;
+}
+
+.reachImg{
+  padding-left: 20px;
+  position: absolute;
+  left: 680px;
+}
+.para3{
+  display: flex;
+  margin-top: 8px;
+}
+
+.rightbox{
+  height: 550px;
+width: 100%;
+border-radius: 10px;
+background-color: #14a800;
+margin-left: 20px;
+margin-top: 4rem;}
+
+.rightboxcontent{
+  margin: 30px 40px;
+  border-radius: 8px;
+  padding: 5px;
+  padding-top: 200px;
+}
+.rightboxcontent h1{
+  vertical-align: bottom;
+  font-size: 30px;
+  color: white;
+  line-height: 2rem;
+}
+.rightboxcontent h4{
+  font-size: 20px;
+  color: white;
+}
+
+
+/* @media only screen and (max-width: 630px) {
+  .leftBox ul li {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .leftBox {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .bannerImg {
+    display: none;
+  }
+  .bannerContent {
+    width: 80%;
+  } */
